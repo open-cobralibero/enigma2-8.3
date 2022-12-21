@@ -32,8 +32,7 @@ class About(Screen):
 		cpu = about.getCPUInfoString()
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		AboutText += _("Build Version: 8.3")  + "\n"
-		AboutText += _("Build date: cobraliberosat-Team")  + "\n"
+		AboutText += _("Build date: open-cobralibero")  + "\n"
 		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 
