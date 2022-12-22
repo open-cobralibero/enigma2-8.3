@@ -33,7 +33,7 @@ class About(Screen):
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Build date: open-cobralibero")  + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
+		AboutText += _("Forum: https://cobraliberosat.ne") + "\n"
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
