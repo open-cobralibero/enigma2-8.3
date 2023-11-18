@@ -35,7 +35,7 @@ class About(Screen):
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
 		ImageVersion = _("Last update: ") + about.getImageVersionString()
 		self["ImageVersion"] = StaticText(ImageVersion)
-		AboutText += ImageVersion + "\n" 
+		AboutText += ImageVersion + "\n"
 		AboutText += _("Build Image: open-cobralibero") + "\n"
 		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
 
