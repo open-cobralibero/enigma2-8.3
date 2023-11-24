@@ -33,11 +33,9 @@ class About(Screen):
 		cpu = about.getCPUInfoString()
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		ImageVersion = _("Last update: ") + about.getImageVersionString()
-		self["ImageVersion"] = StaticText(ImageVersion)
-		AboutText += ImageVersion + "\n"
+		
 		AboutText += _("Build Image: open-cobralibero") + "\n"
-		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
+		AboutText += _("Forum: https://cobraliberosat.ne") + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
 		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
