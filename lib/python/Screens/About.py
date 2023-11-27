@@ -33,7 +33,9 @@ class About(Screen):
 		cpu = about.getCPUInfoString()
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		
+		ImageVersion = _("Last update: ") + about.getImageVersionString()
+		self["ImageVersion"] = StaticText(ImageVersion)
+		AboutText += ImageVersion + "\n" 
 		AboutText += _("Build Image: open-cobralibero") + "\n"
 		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
 
