@@ -86,7 +86,7 @@ class UpdatePlugin(Screen, ProtectedScreen):
 		message = None
 		abort = False
 		picon = MessageBox.TYPE_ERROR
-		url = "https://openpli.org/trafficlight"
+		url = "https://cobraliberosat.net"
 
 		# try to fetch the trafficlight json from the website
 		try:
