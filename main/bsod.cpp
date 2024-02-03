@@ -18,7 +18,7 @@
 
 static const char *crash_emailaddr =
 #ifndef CRASH_EMAILADDR
-	"the COBRALIBEROSAT forum";
+	"the OpenPLi forum";
 #else
 	CRASH_EMAILADDR;
 #endif
